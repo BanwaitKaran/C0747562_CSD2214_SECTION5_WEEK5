@@ -6,7 +6,16 @@
 
 function arrays() {
     var pens;
-    pens = ["red", "green", "orange", "blue", "purple"];
-    return pens;
+    pens = new Array("red", "green", "orange", "blue", "purple");
+    markers = pens;
+
+    console.log(markers
+    );
+
+    for (i = 0; i < markers.length; i++) {
+        alert(markers[i]);
+    }
+
+    alert("Length of array is: " + markers.length)
 }
 
