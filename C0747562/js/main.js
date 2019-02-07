@@ -9,8 +9,7 @@ function arrays() {
     pens = new Array("red", "green", "orange", "blue", "purple");
     markers = pens;
 
-    console.log(markers
-    );
+    console.log(markers);
 
     for (i = 0; i < markers.length; i++) {
         alert(markers[i]);
